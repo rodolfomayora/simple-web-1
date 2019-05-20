@@ -9,27 +9,13 @@
  *  Visual - propiedades visuales
  */
 
-/*	General Styles
-===========================================================*/
-
-* {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	outline: 0;
+.header {
+	background-color: #1abc9c;
+	text-align: center;
+	padding: 2vh;
 }
 
-html {
-	font: 16px sans-serif;
-	color: #222;
+.header__logo {
+	width: 20vmax;
+	height: 20vmax;
 }
-
-body { 
-	background-color: #eff;
-	overflow: hidden;
-}
-
-header,
-nav,
-main,
-footer { display: block; }
