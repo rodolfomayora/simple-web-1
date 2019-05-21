@@ -1,0 +1,59 @@
+/**
+ * Convencion de nomenclatura: BEM - Block Elemen Modifier;
+ *
+ * Normas:
+ * Las propiedades CSS se ordenaran en funcion de la formula PC-TV
+ *  Posicionamiento - propiedades de posicionamiento
+ *  Caja - propiedades de modelo de caja
+ *  Texto - propiedades texto
+ *  Visual - propiedades visuales
+ */
+
+.main {
+	height: 100vmax;
+	padding-top: 10vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-image: url('../img/fondo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.main__contain {
+	width: 95vmin;
+	height: 95vmin;
+	overflow: hidden;
+
+	box-shadow: 0px 0px 10px 2px #222;
+
+	background-image: url('../img/grapes.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	border-radius: 50%;
+}
+
+.main__color {
+	height: 100%;
+	width: 100%;
+	padding: 4vmin;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	background-color: rgba(22, 160, 133,.4);
+}
+
+.main__title {
+	color: #e7e0de;
+	text-shadow: 1px 1px 2px #222,
+	           	-1px -1px 2px #222;
+  text-align: center;
+  font-size: 4vh;
+}

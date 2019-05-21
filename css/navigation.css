@@ -24,7 +24,7 @@
  	display: flex;
  	justify-content: center;
  	align-items: center;
- 	background-color: #1abc9c;
+ 	background-color: #16a085;
  	border-radius: 0 0 0 15vh/0 0 0 15vh;
 
 }
@@ -56,7 +56,7 @@
 	display: block;
 	height: 5px;
 	width: 90%;
-	background-color: #1abc9c;
+	background-color: #16a085;
 }
 
 
@@ -67,14 +67,14 @@
 	transform: translateX(-100%);
 
 	width: 100%;
-	height: 100vh;
+	height: 85.1vh;
 	/*
 	padding: 20vw;
 	*/
 	display:flex;
 	flex-direction: column;
 
-	background-color: #1abc9c;
+	background-color: #16a085;
 	transition: transform 1s;
 	border-radius: 0 15vh 0 0/0 15vh 0 0;
 }
@@ -105,7 +105,7 @@
 	display: block;
 	height: 5px;
 	width: 90%;
-	background-color: #1abc9c;
+	background-color: #16a085;
 }
 
 .navigation__item {
