@@ -1,0 +1,17 @@
+/**
+ * Convencion de nomenclatura: BEM - Block Elemen Modifier;
+ *
+ * Normas:
+ * Las propiedades CSS se ordenaran en funcion de la formula PC-TV
+ *  Posicionamiento - propiedades de posicionamiento
+ *  Caja - propiedades de modelo de caja
+ *  Texto - propiedades texto
+ *  Visual - propiedades visuales
+ */
+
+ .footer {
+ 	padding: 10vmax 6vmax;
+ 	text-align: center;
+ 	color: #e7e0de;
+ 	background-color: #2980b9;
+ }
