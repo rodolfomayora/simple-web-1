@@ -5,11 +5,13 @@
 
 const ID = document.getElementById.bind( document );
 
- let btn_nav = ID( 'navigation__img' ),
- 		navigation = ID( 'navigation__contain' );
- 		body = document.querySelector( 'body' );
+let //refereancias DOM
+	btnNav = ID( 'navigation__button' ),
+ 	navigation = ID( 'navigation__contain' );
+ 	body = document.querySelector( 'body' );
 
- btn_nav.addEventListener( 'click', function () {
- 	navigation.classList.toggle( 'navigation__contain--visible' );
- 	body.classList.toggle( 'scroll-off' );
- } );
+btnNav.addEventListener( 'click', function () {
+	btnNav.classList.toggle( 'navigation__button--active' );
+	navigation.classList.toggle( 'navigation__contain--visible' );
+	body.classList.toggle( 'scroll-off' );
+} );
