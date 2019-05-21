@@ -26,8 +26,10 @@ html {
 
 body { 
 	background-color: #eff;
-	overflow: hidden;
+	overflow-x: hidden;
 }
+
+.scroll-off { overflow-y: hidden; }
 
 header,
 nav,

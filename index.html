@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/normalize.css"/> <!-- reset css -->
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/header.css"/>
+	<link rel="stylesheet" href="css/navigation.css"/>
 </head>
 <body>
 	<!-- header -->
@@ -20,10 +21,15 @@
 
 	<!-- NAVIGATION BAR -->
 	<nav class="navigation">
-		<img class="navigation__img" src="img/menu.png">
+		<div class="navigation__menu">
+			<img class="navigation__img" id="navigation__img" src="img/menu.png">
+		</div>
 
-		<a class="navigation__item" href="#">INICIO</a>
-		<a class="navigation__item" href="#">QUIÉNES SOMOS</a>
+		<div class="navigation__contain" id="navigation__contain">
+			<vir class="navigation__block"></vir>
+			<a class="navigation__item" href="#">INICIO</a>
+			<a class="navigation__item" href="#">QUIÉNES SOMOS</a>
+		</div>
 	</nav>
 
 	<!-- CONTENT -->
@@ -40,6 +46,15 @@
 	</footer>
 
 	<!-- SCRIPTS -->
-	<script type="text/javascript"></script>
+	<script type="text/javascript">
+		let btn_nav = document.getElementById( 'navigation__img' ),
+				navigation = document.getElementById( 'navigation__contain' );
+				body = document.querySelector( 'body' );
+
+		btn_nav.addEventListener( 'click', function () {
+			navigation.classList.toggle( 'navigation__contain--visible' );
+			body.classList.toggle( 'scroll-off' );
+		} );
+	</script>
 </body>
 </html>
