@@ -11,7 +11,6 @@
 
 /*	General Styles
 ===========================================================*/
-
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -21,7 +20,7 @@
 
 html {
 	font: 16px sans-serif;
-	color: #222;
+	color: #e7e0de;
 }
 
 body { 
@@ -38,7 +37,5 @@ footer { display: block; }
 
 @media (min-width: 768px) {
 
-	body {
-		background-color: #16a085;
-	}
+	body { background-color: #16a085; }
 }
