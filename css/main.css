@@ -82,10 +82,14 @@
 	margin-bottom: 2vh;
 	font-size: 4vmax;
 	text-align: center; 
+	color: #111;
 }
 
 
-.main__text { font-size: 5.1vmin; }
+.main__text { 
+	font-size: 5.1vmin; 
+	color: #111;
+}
 
 @media (min-width: 768px) {
 
