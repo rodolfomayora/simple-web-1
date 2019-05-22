@@ -35,3 +35,10 @@ header,
 nav,
 main,
 footer { display: block; }
+
+@media (min-width: 768px) {
+
+	body {
+		background-color: #16a085;
+	}
+}

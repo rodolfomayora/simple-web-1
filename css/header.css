@@ -10,12 +10,35 @@
  */
 
 .header {
-	background-color: #16a085;
-	text-align: center;
 	padding: 2vh;
+	text-align: center;
+	background-color: #16a085;
 }
 
 .header__logo {
 	width: 20vmax;
 	height: 20vmax;
+}
+
+
+/* Media Queries
+ =============================================================*/
+@media (min-width: 768px) {
+
+	.header {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		height: auto;
+		padding: 0;
+		background-color: #e7e0de;	
+	}
+
+	.header__logo {
+		position: absolute;
+		left: 5%;
+		top: 5vh;
+		width: 15vh;
+		height: 15vh;
+	}
 }

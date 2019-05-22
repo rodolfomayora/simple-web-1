@@ -33,10 +33,11 @@
 	background-image: url('../img/grapes.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: center bottom;
 
 	border-radius: 50%;
 }
+
 
 .main__color {
 	height: 100%;
@@ -58,9 +59,10 @@
   font-size: 4vh;
 }
 
+
 .main__contain-2 {
 	width: 95vmin;
-	height: 120vmin;
+	height: 60vmax;
 	overflow: hidden;
 
 	box-shadow: 0px 0px 10px 2px #222;
@@ -68,12 +70,56 @@
 	border-radius: 0 15vh 0 15vh/0 15vh 0 15vh;
 }
 
+
 .main__color-2 {
 	height: 100%;
-	padding: 3vmax;
+	padding: 4vh;
 	background-color: #bdc3c7;
 }
 
-.main__title-2 { text-align: center; }
+.main__title-2 { 
+	margin: 0;
+	margin-bottom: 2vh;
+	font-size: 4vmax;
+	text-align: center; 
+}
 
-.main__text { font-size: 2.4vmax; }
+
+.main__text { font-size: 5.1vmin; }
+
+@media (min-width: 768px) {
+
+	.main {
+		height: 85vh;
+		padding-top: 0;
+		justify-content: center;
+		border-radius: 0 35vw 0 0/ 0 35vw 0 0;
+		background-position: center bottom;
+	}
+
+	.main__contain {
+		width: 80vmin;
+		height: 80vmin;
+	}
+
+	.main__title {
+	  font-size: 6vmin;
+	}
+
+	.main__contain-2 {
+		width: 65%;
+		height: auto;
+	}
+
+	.main__title-2 {
+		font-size: 3vmax;
+	}
+
+	.main__color-2 {
+		padding: 5vh 5vh 6.5vh;
+	}
+
+	.main__text {
+		font-size: 4vmin;
+	}
+}

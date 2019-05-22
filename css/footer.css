@@ -10,12 +10,55 @@
  */
 
 .footer {
+	position: relative;
  	padding: 10vmax 6vmax;
  	text-align: center;
  	color: #e7e0de;
  	background-color: #2980b9;
 }
 
+.footer:before {
+	content: " ";
+	position: absolute;
+	bottom: 99%;
+	left: 0;
+
+	width: 15vh;
+	height: 15vh;
+
+	background-image: url('../img/figura-2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center; 
+}
+
 .footer__copyright {
  	font-size: 5vmin;
+}
+
+@media (min-width: 768px) {
+
+	.footer {
+		position: relative;
+		padding: 5vmax;
+	}
+
+	.footer:before {
+		content: " ";
+
+		width: 25vh;
+		height: 25vh;
+		position: absolute;
+		bottom: 100%;
+		left: 0;
+
+		background-image: url('../img/figura-2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center; 
+	}
+
+	.footer__copyright {
+		font-size: 2vh;
+	}
 }
