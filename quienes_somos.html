@@ -59,6 +59,8 @@
 	</footer>
 
 	<!-- SCRIPTS -->
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		var ID=document.getElementById.bind(document);var btnNav=ID('navigation__button'),navigation=ID('navigation__contain');body=document.querySelector('body');btnNav.addEventListener('click',function(){btnNav.classList.toggle('navigation__button--active');navigation.classList.toggle('navigation__contain--visible');body.classList.toggle('scroll-off');});
+	</script>
 </body>
 </html>
