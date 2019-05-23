@@ -17,24 +17,16 @@
  	background-color: #2980b9;
 }
 
-.footer:before {
-	content: " ";
+.footer__figure {
 	position: absolute;
 	bottom: 99%;
 	left: 0;
-
-	width: 15vh;
-	height: 15vh;
-
-	background-image: url('../img/figura-2.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center; 
+	width: 30vh;
+	height: 30vh;
+	background: url('../img/figura-2.png') no-repeat center center/cover;
 }
 
-.footer__copyright {
- 	font-size: 5vmin;
-}
+.footer__copyright { font-size: 5vmin; }
 
 @media (min-width: 768px) {
 
@@ -43,22 +35,5 @@
 		padding: 5vmax;
 	}
 
-	.footer:before {
-		content: " ";
-
-		width: 25vh;
-		height: 25vh;
-		position: absolute;
-		bottom: 100%;
-		left: 0;
-
-		background-image: url('../img/figura-2.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center; 
-	}
-
-	.footer__copyright {
-		font-size: 2vh;
-	}
+	.footer__copyright { font-size: 2vh; }
 }
