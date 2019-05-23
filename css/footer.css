@@ -23,7 +23,7 @@
 	left: 0;
 	width: 30vh;
 	height: 30vh;
-	background: url('../img/figura-2.png') no-repeat center center/cover;
+	background: url('../img/web-img/figura-2.png') no-repeat center center/cover;
 }
 
 .footer__copyright { font-size: 5vmin; }
@@ -36,4 +36,14 @@
 	}
 
 	.footer__copyright { font-size: 2vh; }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+	.footer__figure { background: url('../img/web-img-768w/figura-2-768w.png') no-repeat center center/cover; }
+}
+
+@media (min-width: 1200px) {
+
+	.footer__figure { background: url('../img/web-img-1200w/figura-2-1200w.png') no-repeat center center/cover; }
 }
