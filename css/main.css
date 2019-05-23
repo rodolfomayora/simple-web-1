@@ -10,9 +10,19 @@
  */
 
 .main {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	height: 100vmax;
 	padding-top: 10vh;
 	background: url('../img/web-img/fondo.jpg') no-repeat center bottom/cover;
@@ -22,24 +32,37 @@
 .main__contain-2 {
 	width: 95vmin;
 	overflow: hidden;
-	box-shadow: 0px 0px 10px 2px #222;
+	-webkit-box-shadow: 0px 0px 10px 2px #222;
+	        box-shadow: 0px 0px 10px 2px #222;
 }
 
 .main__contain-1 {
 	height: 95vmin;
 	background: url('../img/web-img/grapes.jpg') no-repeat center/cover;
-	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
 }
 
 .main__contain-2 {
 	height: 60vmax;
-	border-radius: 0 15vh 0 15vh/0 15vh 0 15vh;
+	-webkit-border-radius: 0 15vh 0 15vh/0 15vh 0 15vh;
+	        border-radius: 0 15vh 0 15vh/0 15vh 0 15vh;
 }
 
 .main__color-1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	height: 100%;
 	width: 100%;
 	padding: 4vmin;
@@ -85,10 +108,14 @@
 @media (min-width: 768px) {
 
 	.main {
-		justify-content: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		height: 85vh;
 		padding-top: 0;
-		border-radius: 0 35vw 0 0/ 0 35vw 0 0;
+		-webkit-border-radius: 0 35vw 0 0/ 0 35vw 0 0;
+		        border-radius: 0 35vw 0 0/ 0 35vw 0 0;
 	}
 
 	.main__contain-1 {

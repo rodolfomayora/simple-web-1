@@ -12,7 +12,8 @@
 /*	General Styles
 ===========================================================*/
 * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	outline: 0;
@@ -37,5 +38,10 @@ footer { display: block; }
 
 @media (min-width: 768px) {
 
-	body { background: linear-gradient(to right,#e7e0de 40%,#16a085 40%); }
+	body { 
+		background: -webkit-gradient(linear,left top, right top,color-stop(40%, #e7e0de),color-stop(40%, #16a085)); 
+		background: -webkit-linear-gradient(left,#e7e0de 40%,#16a085 40%); 
+		background: -o-linear-gradient(left,#e7e0de 40%,#16a085 40%); 
+		background: linear-gradient(to right,#e7e0de 40%,#16a085 40%); 
+	}
 }
