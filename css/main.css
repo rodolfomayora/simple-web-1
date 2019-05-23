@@ -25,7 +25,7 @@
 	        align-items: center;
 	height: 100vmax;
 	padding-top: 10vh;
-	background: url('../img/web-img/fondo.jpg') no-repeat center bottom/cover;
+	background: url('https://dl.dropboxusercontent.com/s/lkkbxsg5m8twrfa/fondo.jpg?dl=0') no-repeat center bottom/cover;
 }
 
 .main__contain-1,
@@ -38,7 +38,7 @@
 
 .main__contain-1 {
 	height: 95vmin;
-	background: url('../img/web-img/grapes.jpg') no-repeat center/cover;
+	background: url('https://dl.dropboxusercontent.com/s/1lrlud7mx9rdf1b/grapes.jpg?dl=0') no-repeat center/cover;
 	-webkit-border-radius: 50%;
 	        border-radius: 50%;
 }
@@ -75,14 +75,12 @@
 	background-color: #bdc3c7;
 }
 
-
 .main__title-1 {
 	color: #e7e0de;
   font-size: 4vmax;
   text-align: center;
 	text-shadow: 1px 1px 2px #222, -1px -1px 2px #222;
 }
-
 
 .main__title-2 { 
 	margin: 0;
@@ -92,7 +90,6 @@
 	text-align: center; 
 }
 
-
 .main__text { 
 	font-size: 5.1vmin; 
 	color: #111;
@@ -100,9 +97,9 @@
 
 @media (min-width: 480px) and (max-width: 767px) {
 
-	.main { background: url('../img/web-img-480w/fondo-480w.jpg') no-repeat center bottom/cover; }
+	.main { background: url('https://dl.dropboxusercontent.com/s/hvg9ibccx7dhdn9/fondo-480w.jpg?dl=0') no-repeat center bottom/cover; }
 
-	.main__contain-1 { background: url('../img/web-img-480w/grapes-480w.jpg') no-repeat center/cover; }
+	.main__contain-1 { background: url('https://dl.dropboxusercontent.com/s/nuo52xtsmqf7r05/grapes-480w.jpg?dl=0') no-repeat center/cover; }
 }
 
 @media (min-width: 768px) {
@@ -139,15 +136,14 @@
 
 @media (min-width: 768px) and (max-width: 1199px) {
 
-	.main { background: url('../img/web-img-768w/fondo-768w.jpg') no-repeat center bottom/cover; }
+	.main { background: url('https://dl.dropboxusercontent.com/s/mbo1o3l22pfjcx6/fondo-768w.jpg?dl=0') no-repeat center bottom/cover; }
 
-	.main__contain-1 { background: url('../img/web-img-768w/grapes-768w.jpg') no-repeat center/cover; }
-
+	.main__contain-1 { background: url('https://dl.dropboxusercontent.com/s/hl7s8i5t6i9bw5f/grapes-768w.jpg?dl=0') no-repeat center/cover; }
 }
 
 @media (min-width: 1200px) {
 
-	.main { background: url('../img/web-img-1200w/fondo-1200w.jpg') no-repeat center bottom/cover; }
+	.main { background: url('https://dl.dropboxusercontent.com/s/isjamyldnm6ex74/fondo-1200w.jpg?dl=0') no-repeat center bottom/cover; }
 
-	.main__contain-1 { background: url('../img/web-img-1200w/grapes-1200w.jpg') no-repeat center/cover; }
+	.main__contain-1 { background: url('https://dl.dropboxusercontent.com/s/vsjt9ud2ep5nz5a/grapes-1200w.jpg?dl=0') no-repeat center/cover; }
 }
