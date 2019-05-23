@@ -3,9 +3,9 @@
  * @author Rodolfo < rodolfomayora96@gmail.com >
  */
 
-const ID = document.getElementById.bind( document );
+var ID = document.getElementById.bind( document );
 
-let //refereancias DOM
+var //refereancias DOM
 	btnNav = ID( 'navigation__button' ),
  	navigation = ID( 'navigation__contain' );
  	body = document.querySelector( 'body' );
