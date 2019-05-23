@@ -37,5 +37,5 @@ footer { display: block; }
 
 @media (min-width: 768px) {
 
-	body { background-color: #16a085; }
+	body { background: linear-gradient(to right,#e7e0de 40%,#16a085 40%); }
 }
