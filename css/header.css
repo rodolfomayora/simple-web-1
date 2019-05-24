@@ -11,8 +11,14 @@
 
 .header {
 	padding: 2vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	background-color: #16a085;
 }
 
@@ -28,7 +34,10 @@
 
 	.header {
 		position: relative;
-		justify-content: flex-end;
+		-webkit-box-pack: end;
+		-webkit-justify-content: flex-end;
+		    -ms-flex-pack: end;
+		        justify-content: flex-end;
 		height: auto;
 		padding: 0;
 		background-color: #e7e0de;	
